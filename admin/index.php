@@ -21,7 +21,7 @@ if ($login == NAME && $pswd == PSWD) {
 		</ul>';
 }
 elseif ($login != NAME && $pswd != PSWD) {
-	die('Ваш логин и пароль не подходят для администрирования!');
+	die('Ваш логин и пароль не подходят для администрировании!');
 }}
 else{
 	echo '<form action="index.php" method="post">
